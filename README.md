@@ -14,16 +14,16 @@ Simple and easy to run, if you have a Nvidia GPU and want to mine ETH/ETC.
 ## Examples
 For ETH
 
-    $ nvidia-docker run -it azzozhsn/gminer --nvml 0 --algo ethash --server eth.2miners.com:2020 -ssl 1 --user 0x6cc15aefbcf7b56a309ae80854efcfe0ae6d4442
+    $ nvidia-docker run -it azzozhsn/gminer --nvml 0 --algo ethash --server eth.2miners.com:2020 --user 0x6cc15aefbcf7b56a309ae80854efcfe0ae6d4442
 For ETC
 
-    $ nvidia-docker run -it azzozhsn/gminer --nvml 0 --algo etchash --server etc.2miners.com:1010 -ssl 1 --user 0x6cc15aefbcf7b56a309ae80854efcfe0ae6d4442
+    $ nvidia-docker run -it azzozhsn/gminer --nvml 0 --algo etchash --server etc.2miners.com:1010 --user 0x6cc15aefbcf7b56a309ae80854efcfe0ae6d4442
 For BEAM
 
-    $ nvidia-docker run -it azzozhsn/gminer --nvml 0 --algo beamhash --server beam.2miners.com:5252 -ssl 1 --user 2636ef593545a22ca63f2cb1fc0a33514d4fd6633dba3e00f6d9e4855aeec3484f2
+    $ nvidia-docker run -it azzozhsn/gminer --nvml 0 --algo beamhash --server beam.2miners.com:5252 --user 2636ef593545a22ca63f2cb1fc0a33514d4fd6633dba3e00f6d9e4855aeec3484f2
 For Ravencoin
 
-    $ nvidia-docker run -it azzozhsn/gminer --nvml 0 --algo kawpow --server rvn.2miners.com:6060 -ssl 1 --user RJ8Xgu185ZJthTD1pRkU23fvKwE5Kf9mDy
+    $ nvidia-docker run -it azzozhsn/gminer --nvml 0 --algo kawpow --server rvn.2miners.com:6060 --user RJ8Xgu185ZJthTD1pRkU23fvKwE5Kf9mDy
 Note: Be sure to change the -epool argument to your mining pool and -ewal to your wallet address. Check Gminer documentation for more information.
 
 ## Questions?
